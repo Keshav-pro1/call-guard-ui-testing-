@@ -1,0 +1,8 @@
+{
+  "name": "Lumina IT - Premium 3D Tech Solutions",
+  "description": "A high-end, 3D-integrated IT services platform featuring an organic, flowy white aesthetic and an intelligent AI concierge powered by Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -1,0 +1,315 @@
+[
+  {
+    "call_id": "a990b947-69b4-4581-a2bd-09b7075f757f",
+    "metadata": {
+      "language": "en",
+      "language_probability": 0.99,
+      "duration": 10.0,
+      "region": "TestCity"
+    },
+    "transcript": [
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Hello",
+        "start": 0.0,
+        "end": 1.0
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Start": 1
+    },
+    "evaluation": {
+      "sop_adherence": [],
+      "resolution": {
+        "status": "Resolved",
+        "reason": ""
+      },
+      "risks_detected": [],
+      "scoring": {
+        "final_score": 100,
+        "grade": "A"
+      }
+    },
+    "coaching_insights": [],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-30T13:26:47.838737"
+  },
+  {
+    "call_id": "2d3e0fab-19b5-4fa3-8bc9-d3e04caa54a3",
+    "metadata": {
+      "language": "en",
+      "language_probability": 0.99,
+      "duration": 10.0,
+      "original_duration": 100.0,
+      "trimmed_duration": 10.0,
+      "is_long_call": true,
+      "region": "TestCity"
+    },
+    "transcript": [
+      {
+        "speaker": "SPEAKER_00",
+        "text": "Hello",
+        "start": 0.0,
+        "end": 1.0
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Start": 1
+    },
+    "evaluation": {
+      "sop_adherence": [],
+      "resolution": {
+        "status": "Resolved",
+        "reason": ""
+      },
+      "risks_detected": [],
+      "scoring": {
+        "final_score": 100,
+        "grade": "A"
+      }
+    },
+    "coaching_insights": [],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-30T13:26:47.868453"
+  },
+  {
+    "call_id": "7cc77e1c-aef9-40c1-bf35-c2efed13f8a0",
+    "metadata": {
+      "language": "en",
+      "language_probability": 0.9760103821754456,
+      "duration": 72.810625,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 18.400000000000002,
+        "text": "Welcome to battery smart contact. How can I help you? Actually, my laptop is not working",
+        "speaker": "Unknown"
+      },
+      {
+        "start": 18.400000000000002,
+        "end": 25.48,
+        "text": "well. It's rebooting after each and every minute. I tried to fix it this morning, but it's",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 25.48,
+        "end": 35.480000000000004,
+        "text": "not working. All right, that's the issue. Give me some time. I'll take a while and try to fix this issue.",
+        "speaker": "Unknown"
+      },
+      {
+        "start": 35.480000000000004,
+        "end": 51.480000000000004,
+        "text": "Okay, so the problem is that your boot managers is currently corrupted and you have two changes",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 51.480000000000004,
+        "end": 62.84,
+        "text": "in your MS-config file. So click on MS-config and read that it also. All right, doing",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 62.84,
+        "end": 70.28,
+        "text": "it. Thanks. It's fixed issue. No worries. Thanks for conducting. Have a nice day.",
+        "speaker": "Unknown"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 3,
+      "Problem Identification": 2,
+      "Diagnosis / Action": 1,
+      "Resolution": 0,
+      "Closure": 0
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "wish good morning",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent greeted the customer at the start of the conversation with 'Welcome to battery smart contact. How can I help you?'",
+              "suggestion": null
+            }
+          ]
+        },
+        "hjbhj": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "To clarify and understand the customer's issue or concern",
+              "status": "PASS",
+              "confidence": 0.9,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The customer's issue was clarified and understood through their statement 'my laptop is not working well. It's rebooting after each and every minute.'",
+              "suggestion": null
+            }
+          ]
+        },
+        "closing": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "End the conversation and bid farewell to the customer",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent ended the conversation and bid farewell to the customer with 'Thanks. It's fixed issue. No worries. Thanks for conducting. Have a nice day.'",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "PASS",
+        "reason": "Resolution confirmed via SOP adherence"
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 26.59,
+        "final_score": 88.64,
+        "percentage": 88.64,
+        "avg_sentiment": -0.34,
+        "grade": "A"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-30T14:18:44.124926"
+  },
+  {
+    "call_id": "3ce4a249-7b26-4184-bb71-3a5e8c6560b5",
+    "metadata": {
+      "language": "en",
+      "language_probability": 0.9760103821754456,
+      "duration": 72.810625,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 18.400000000000002,
+        "text": "Welcome to battery smart contact. How can I help you? Actually, my laptop is not working",
+        "speaker": "Unknown"
+      },
+      {
+        "start": 18.400000000000002,
+        "end": 25.48,
+        "text": "well. It's rebooting after each and every minute. I tried to fix it this morning, but it's",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 25.48,
+        "end": 35.480000000000004,
+        "text": "not working. All right, that's the issue. Give me some time. I'll take a while and try to fix this issue.",
+        "speaker": "Unknown"
+      },
+      {
+        "start": 35.480000000000004,
+        "end": 51.480000000000004,
+        "text": "Okay, so the problem is that your boot managers is currently corrupted and you have two changes",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 51.480000000000004,
+        "end": 62.84,
+        "text": "in your MS-config file. So click on MS-config and read that it also. All right, doing",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 62.84,
+        "end": 70.28,
+        "text": "it. Thanks. It's fixed issue. No worries. Thanks for conducting. Have a nice day.",
+        "speaker": "Unknown"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 3,
+      "Problem Identification": 2,
+      "Diagnosis / Action": 1,
+      "Resolution": 0,
+      "Closure": 0
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "closing": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "End the conversation and bid farewell to the customer",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The conversation was ended and the customer was bid farewell with 'Thanks. It's fixed issue. No worries. Thanks for conducting. Have a nice day.'",
+              "suggestion": null
+            }
+          ]
+        },
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "wish good morning",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent greeted the customer at the start of the conversation with 'Welcome to battery smart contact. How can I help you?'",
+              "suggestion": null
+            }
+          ]
+        },
+        "hjbhj": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "To clarify and understand the customer's issue or concern",
+              "status": "PASS",
+              "confidence": 0.9,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The customer's issue was clarified and understood through their description of the laptop rebooting problem",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "PASS",
+        "reason": "Resolution confirmed via SOP adherence"
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 26.59,
+        "final_score": 88.64,
+        "percentage": 88.64,
+        "avg_sentiment": -0.34,
+        "grade": "A"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-30T15:49:30.468339"
+  }
+]

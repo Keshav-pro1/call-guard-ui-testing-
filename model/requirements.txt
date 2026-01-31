@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+faster-whisper
+pyannote.audio
+transformers
+torch
+pyyaml
+pydantic
+python-dotenv
+httpx
+numpy
+librosa
+sentence-transformers
+scikit-learn

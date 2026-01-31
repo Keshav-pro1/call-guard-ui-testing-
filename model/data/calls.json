@@ -1,0 +1,907 @@
+[
+  {
+    "call_id": "b5f9ac5c-1266-435c-900c-30a44dde4c0c",
+    "metadata": {
+      "language": "en",
+      "language_probability": 0.9549395442008972,
+      "duration": 47.3378125,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 6.44,
+        "text": "Hello, welcome to battery smart support, I am Nishkush, how can I help you today?",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 6.44,
+        "end": 12.64,
+        "text": "Hi, my battery has not been working since this morning, it suddenly stopped charging.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 12.64,
+        "end": 18.32,
+        "text": "I understand, thanks for explaining the issue, just to confirm the battery is not charging",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 18.32,
+        "end": 20.84,
+        "text": "at all since morning, correct?",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 20.84,
+        "end": 27.080000000000002,
+        "text": "Yes, that's right, it was fine yesterday, but today it's completely dead.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 27.080000000000002,
+        "end": 32.36,
+        "text": "I've got it, I've clearly noted the issue, let me check the details and guide you on",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 32.36,
+        "end": 38.64,
+        "text": "the next steps, thanks for your patience, I'll make sure this is handled.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 38.64,
+        "end": 42.08,
+        "text": "Is there anything else I can help with you today?",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 42.08,
+        "end": 47.040000000000006,
+        "text": "No, that's all, alright, thank you for calling battery smart support, have a nice day.",
+        "speaker": "SPEAKER_00"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 2,
+      "Problem Identification": 4,
+      "Diagnosis / Action": 1,
+      "Resolution": 0,
+      "Closure": 2
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "Greet the customer",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent greeted the customer with 'Hello, welcome to battery smart support, I am Nishkush, how can I help you today?'",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "FAIL",
+        "reason": "Resolution section lacks confirmation or clear actionable steps in the SOP sections.",
+        "segment_count": 0
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 10,
+        "final_score": 100.0,
+        "percentage": 100.0,
+        "avg_sentiment": 0.08,
+        "grade": "A+"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-31T12:35:22.509293"
+  },
+  {
+    "call_id": "39ee3a01-32ef-47d7-98d7-23e721f19012",
+    "metadata": {
+      "language": "en",
+      "language_probability": 0.8462622761726379,
+      "duration": 14.9178125,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 4.44,
+        "text": "Hi, my battery has not been working since morning.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 4.44,
+        "end": 7.88,
+        "text": "Hello, welcome to battery smart support.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 7.88,
+        "end": 10.08,
+        "text": "I understand the issue.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 10.08,
+        "end": 12.24,
+        "text": "Let me check that for you.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 12.24,
+        "end": 13.84,
+        "text": "Thanks for calling.",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 13.84,
+        "end": 14.68,
+        "text": "Have a good day.",
+        "speaker": "SPEAKER_00"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 2,
+      "Problem Identification": 1,
+      "Diagnosis / Action": 2,
+      "Resolution": 1,
+      "Closure": 0
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "Greet the customer",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent greeted the customer with 'Hello, welcome to battery smart support'.",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "FAIL",
+        "reason": "Resolution section lacks confirmation or clear actionable steps in the SOP sections.",
+        "segment_count": 0
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 10,
+        "final_score": 100.0,
+        "percentage": 100.0,
+        "avg_sentiment": 0.67,
+        "grade": "A+"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-31T12:42:00.512520"
+  },
+  {
+    "call_id": "151bbb2f-5353-4898-b617-0d2732450c69",
+    "metadata": {
+      "language": "hi",
+      "language_probability": 0.9029976725578308,
+      "duration": 42.8778125,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 4.0,
+        "text": "Namaskar battery smart contact is your welcome in the vote",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "Tell me how you are helping",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 6.0,
+        "end": 11.0,
+        "text": "I had changed my battery yesterday and it has become very hot",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 11.0,
+        "end": 13.0,
+        "text": "And the scooter is vibrating",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 14.0,
+        "end": 17.0,
+        "text": "Ma'am, this is very common in these seasons",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 17.0,
+        "end": 23.0,
+        "text": "Please wait for 10 minutes and then start the bike",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 23.0,
+        "end": 26.0,
+        "text": "I cannot wait for 10 minutes, now I am in delivery",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "Now I have to go to delivery",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 28.0,
+        "end": 31.0,
+        "text": "So I have to talk to the manager right now",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 31.0,
+        "end": 34.0,
+        "text": "Ma'am, the manager is not available right now",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 35.0,
+        "end": 39.0,
+        "text": "After knowing the manager, I will not use the battery smart",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 39.0,
+        "end": 42.0,
+        "text": "And I will put the social media page on it",
+        "speaker": "SPEAKER_00"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 3,
+      "Problem Identification": 3,
+      "Diagnosis / Action": 3,
+      "Resolution": 2,
+      "Closure": 1
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "Greet the customer",
+              "status": "PASS",
+              "confidence": 0.9,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent acknowledges and welcomes the customer with 'Namaskar battery smart contact is your welcome in the vote'.",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "FAIL",
+        "reason": "Resolution section lacks confirmation or clear actionable steps in the SOP sections.",
+        "segment_count": 0
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 9.84,
+        "final_score": 98.43,
+        "percentage": 98.43,
+        "avg_sentiment": -0.02,
+        "grade": "A+"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-31T13:00:29.488273"
+  },
+  {
+    "call_id": "0779ca2c-8a06-4898-9558-2a2d87a9abd9",
+    "metadata": {
+      "language": "hi",
+      "language_probability": 0.9029976725578308,
+      "duration": 42.8778125,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 4.0,
+        "text": "Namaskar battery smart contact is your welcome in the vote",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "Tell me how you are helping",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 6.0,
+        "end": 11.0,
+        "text": "I had changed my battery yesterday and it has become very hot",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 11.0,
+        "end": 13.0,
+        "text": "And the scooter is vibrating",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 14.0,
+        "end": 17.0,
+        "text": "Ma'am, this is very common in these seasons",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 17.0,
+        "end": 23.0,
+        "text": "Please wait for 10 minutes and then start the bike",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 23.0,
+        "end": 26.0,
+        "text": "I cannot wait for 10 minutes, now I am in delivery",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "Now I have to go to delivery",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 28.0,
+        "end": 31.0,
+        "text": "So I have to talk to the manager right now",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 31.0,
+        "end": 34.0,
+        "text": "Ma'am, the manager is not available right now",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 35.0,
+        "end": 39.0,
+        "text": "After knowing the manager, I will not use the battery smart",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 39.0,
+        "end": 42.0,
+        "text": "And I will put the social media page on it",
+        "speaker": "SPEAKER_00"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 3,
+      "Problem Identification": 3,
+      "Diagnosis / Action": 3,
+      "Resolution": 2,
+      "Closure": 1
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "Greet the customer",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent greeted the customer with 'Namaskar battery smart contact is your welcome in the vote'.",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "FAIL",
+        "reason": "Resolution section lacks confirmation or clear actionable steps in the SOP sections.",
+        "segment_count": 0
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 9.84,
+        "final_score": 98.43,
+        "percentage": 98.43,
+        "avg_sentiment": -0.02,
+        "grade": "A+"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-31T13:09:28.537489"
+  },
+  {
+    "call_id": "deffbc68-3f97-48b2-9eda-c1f0d97b6f66",
+    "metadata": {
+      "language": "hi",
+      "language_probability": 0.9029976725578308,
+      "duration": 42.8778125,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 4.0,
+        "text": "Namaskar battery smart contact is your welcome in the vote",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "Tell me how you are helping",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 6.0,
+        "end": 11.0,
+        "text": "I had changed my battery yesterday and it has become very hot",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 11.0,
+        "end": 13.0,
+        "text": "And the scooter is vibrating",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 14.0,
+        "end": 17.0,
+        "text": "Ma'am, this is very common in these seasons",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 17.0,
+        "end": 23.0,
+        "text": "Please wait for 10 minutes and then start the bike",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 23.0,
+        "end": 26.0,
+        "text": "I cannot wait for 10 minutes, now I am in delivery",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "Now I have to go to delivery",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 28.0,
+        "end": 31.0,
+        "text": "So I have to talk to the manager right now",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 31.0,
+        "end": 34.0,
+        "text": "Ma'am, the manager is not available right now",
+        "speaker": "SPEAKER_01"
+      },
+      {
+        "start": 35.0,
+        "end": 39.0,
+        "text": "After knowing the manager, I will not use the battery smart",
+        "speaker": "SPEAKER_00"
+      },
+      {
+        "start": 39.0,
+        "end": 42.0,
+        "text": "And I will put the social media page on it",
+        "speaker": "SPEAKER_00"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 3,
+      "Problem Identification": 3,
+      "Diagnosis / Action": 3,
+      "Resolution": 2,
+      "Closure": 1
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "Greet the customer",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The agent greeted the customer with 'Namaskar battery smart contact is your welcome in the vote'.",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "FAIL",
+        "reason": "Resolution section lacks confirmation or clear actionable steps in the SOP sections.",
+        "segment_count": 0
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 9.84,
+        "final_score": 98.43,
+        "percentage": 98.43,
+        "avg_sentiment": -0.02,
+        "grade": "A+"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-31T13:14:41.956359"
+  },
+  {
+    "call_id": "19041500-a90c-4ccb-9cf8-b7a92c1b881b",
+    "metadata": {
+      "language": "hi",
+      "language_probability": 0.9029976725578308,
+      "duration": 42.8778125,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 4.0,
+        "text": "Namaskar battery smart contact is your welcome in the vote",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "Tell me how you are helping",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 6.0,
+        "end": 11.0,
+        "text": "I had changed my battery yesterday and it has become very hot",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 11.0,
+        "end": 13.0,
+        "text": "And the scooter is vibrating",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 14.0,
+        "end": 17.0,
+        "text": "Ma'am, this is very common in these seasons",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 17.0,
+        "end": 23.0,
+        "text": "Please wait for 10 minutes and then start the bike",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 23.0,
+        "end": 26.0,
+        "text": "I cannot wait for 10 minutes, now I am in delivery",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "Now I have to go to delivery",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 28.0,
+        "end": 31.0,
+        "text": "So I have to talk to the manager right now",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 31.0,
+        "end": 34.0,
+        "text": "Ma'am, the manager is not available right now",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 35.0,
+        "end": 39.0,
+        "text": "After knowing the manager, I will not use the battery smart",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 39.0,
+        "end": 42.0,
+        "text": "And I will put the social media page on it",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 3,
+      "Problem Identification": 3,
+      "Diagnosis / Action": 3,
+      "Resolution": 2,
+      "Closure": 1
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "Greet the customer",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The Agent welcomed the customer with 'Namaskar battery smart contact is your welcome in the vote'.",
+              "suggestion": null
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "FAIL",
+        "reason": "The customer's issue was not resolved as the agent couldn't provide a clear fix and the customer ended the call in an angry state without a valid escalation path."
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 9.84,
+        "final_score": 98.43,
+        "percentage": 98.43,
+        "avg_sentiment": -0.02,
+        "grade": "A+"
+      }
+    },
+    "coaching_insights": [
+      "Great job! No major SOP violations detected."
+    ],
+    "supervisor_alerts": [],
+    "timestamp": "2026-01-31T13:33:12.155829"
+  },
+  {
+    "call_id": "90b42ada-f411-4529-982c-2079c1800698",
+    "metadata": {
+      "language": "hi",
+      "language_probability": 0.9029976725578308,
+      "duration": 42.8778125,
+      "region": "Delhi"
+    },
+    "transcript": [
+      {
+        "start": 0.0,
+        "end": 4.0,
+        "text": "Namaskar battery smart contact is your welcome in the vote",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "Tell me how you are helping",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 6.0,
+        "end": 11.0,
+        "text": "I had changed my battery yesterday and it has become very hot",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 11.0,
+        "end": 13.0,
+        "text": "And the scooter is vibrating",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 14.0,
+        "end": 17.0,
+        "text": "Ma'am, this is very common in these seasons",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 17.0,
+        "end": 23.0,
+        "text": "Please wait for 10 minutes and then start the bike",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 23.0,
+        "end": 26.0,
+        "text": "I cannot wait for 10 minutes, now I am in delivery",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "Now I have to go to delivery",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 28.0,
+        "end": 31.0,
+        "text": "So I have to talk to the manager right now",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 31.0,
+        "end": 34.0,
+        "text": "Ma'am, the manager is not available right now",
+        "speaker": "Agent",
+        "speaker_label": "SPEAKER_01"
+      },
+      {
+        "start": 35.0,
+        "end": 39.0,
+        "text": "After knowing the manager, I will not use the battery smart",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      },
+      {
+        "start": 39.0,
+        "end": 42.0,
+        "text": "And I will put the social media page on it",
+        "speaker": "Customer",
+        "speaker_label": "SPEAKER_00"
+      }
+    ],
+    "segmented_transcript_summary": {
+      "Greeting": 3,
+      "Problem Identification": 3,
+      "Diagnosis / Action": 3,
+      "Resolution": 2,
+      "Closure": 1
+    },
+    "evaluation": {
+      "sop_adherence": {
+        "Greeting": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "Establish a welcoming and professional tone to initiate the support interaction",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The Agent initiates the conversation with a greeting.",
+              "suggestion": null
+            }
+          ]
+        },
+        "asking issue": {
+          "score": 10.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "To clarify and understand the customer's problem or concern",
+              "status": "PASS",
+              "confidence": 1.0,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The Customer shares their issue, and the Agent acknowledges it.",
+              "suggestion": null
+            }
+          ]
+        },
+        "resolving issue": {
+          "score": 0.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "try to resolve issue if found",
+              "status": "FAIL",
+              "confidence": 0.8,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The Agent's resolution does not address the Customer's urgent need and does not follow the policy for handling issues.",
+              "suggestion": "I'd be happy to help you with that. Let me investigate the issue further to see if I can resolve it for you."
+            }
+          ]
+        },
+        "closing": {
+          "score": 0.0,
+          "max_score": 10,
+          "steps": [
+            {
+              "step": "To bring the conversation to a close and finalize the interaction with the customer",
+              "status": "FAIL",
+              "confidence": 0.9,
+              "matched_text": null,
+              "timestamp": null,
+              "reason": "The conversation does not have a proper closing, as the Customer is not satisfied and threatens to post on social media.",
+              "suggestion": "Is there anything else I can assist you with today? If not, it was a pleasure helping you, and I wish you a great day ahead."
+            }
+          ]
+        }
+      },
+      "resolution": {
+        "status": "FAIL",
+        "reason": "The customer's issue was not resolved as the agent couldn't provide a clear fix and the customer ended the call in an angry state without a valid escalation path."
+      },
+      "risks_detected": [],
+      "scoring": {
+        "total_score": 19.84,
+        "final_score": 49.61,
+        "percentage": 49.61,
+        "avg_sentiment": -0.02,
+        "grade": "D"
+      }
+    },
+    "coaching_insights": [
+      "Focus on resolving issue: Missing try to resolve issue if found",
+      "Focus on closing: Missing To bring the conversation to a close and finalize the interaction with the customer"
+    ],
+    "supervisor_alerts": [
+      "Low SOP adherence in: resolving issue, closing"
+    ],
+    "timestamp": "2026-01-31T13:52:09.132880"
+  }
+]

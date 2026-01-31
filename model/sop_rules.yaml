@@ -1,0 +1,53 @@
+sentiments:
+  negative:
+  - angry
+  - frustrated
+  - bad service
+  - not working
+  - useless
+  positive:
+  - happy
+  - satisfied
+  - thank you
+  - great
+  - helpful
+  risk_keywords:
+  - legal
+  - court
+  - police
+  - refund immediately
+  - shut down
+  - fire
+  - battery hot
+  - smoke
+  - negligence
+  - theft
+  - rash driving
+sop_rules:
+  Safety Protocol:
+    steps:
+    - internal_intent: Identify and acknowledge any reported safety concerns like heat, fire, or theft.
+      suggestion: I understand you're reporting a battery heat issue. Let's address this immediately.
+      text: Agent must prioritize safety complaints
+    - internal_intent: Instruct the customer on immediate safety actions if needed.
+      suggestion: Please keep the battery in an open area and away from flammable objects.
+      text: Agent should provide safety instructions for hot batteries
+    weight: 20
+  Ask:
+    steps:
+    - internal_intent: Establish initial customer contact with a greeting.
+      suggestion: 'Welcome to battery '
+      text: 'Agent should greet '
+    weight: 10
+  Greet:
+    steps:
+    - internal_intent: Gather customers purpose for contacting support.
+      suggestion: how can i help you?
+      text: 'Agent should ask the reason behind calling or any query '
+    weight: 10
+  end:
+    steps:
+    - internal_intent: Terminate the customer interaction session.
+      suggestion: good bye , have a nice day
+      text: Agent should close the conversation
+    weight: 10

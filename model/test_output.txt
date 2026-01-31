@@ -1,0 +1,16 @@
+﻿Loading Semantic Similarity Model: all-MiniLM-L6-v2...
+Running check_adherence...
+
+Greeting Results:
+Step: 'Welcome to Battery Smart'
+Status: PASS
+Matched: 'Welcome to Battery Smart. How can I help you?'
+Confidence: 0.8
+Reason: Verified at 1.0s: 'Welcome to Battery Smart. How can I help you?'
+--------------------
+Step: 'How can I help you'
+Status: PASS
+Matched: 'Welcome to Battery Smart. How can I help you?'
+Confidence: 0.6
+Reason: Verified at 1.0s: 'Welcome to Battery Smart. How can I help you?'
+--------------------
