@@ -38,7 +38,7 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center gap-10">
           {[
             { name: 'Deliverables', path: '/services' },
-            { name: 'Evaluation', path: '/services#evaluation' },
+            
             { name: 'Long Calls', path: '/long-calls' },
             { name: 'Analysis', path: '/analysis' },
             { name: 'SOP Manager', path: '/sop-manager' },
